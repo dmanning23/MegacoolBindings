@@ -10,4 +10,10 @@
 	<!-- Normalize the namespace for .NET -->
 	<attr path="/api/package[@name='co.megacool.megacool']" name="managedName">MegacoolLib</attr>
 
+	<remove-node path="/api/package[@name='co.megacool.megacool']/interface[@name='beautiful.fab']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='glorious.fab']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='golden.fab']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='glorious.1']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='golden.1']" />
+
 </metadata>
