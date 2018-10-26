@@ -16,4 +16,8 @@
 	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='glorious.1']" />
 	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='golden.1']" />
 
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='Megacool']/implements[@name='co.megacool.megacool.fab.cool']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='Megacool']/implements[@name='co.megacool.megacool.fab.fun']" />
+	<remove-node path="/api/package[@name='co.megacool.megacool']/class[@name='Megacool']/implements[@name='co.megacool.megacool.fab.fab']" />
+
 </metadata>
